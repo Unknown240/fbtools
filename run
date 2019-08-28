@@ -1,0 +1,132 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# Facebook-Tools
+python2 .x.py
+clear
+black='\033[1;30m'
+red='\033[1;31m'
+green='\033[1;32m'
+yellow='\033[1;33m'
+blue='\033[1;34m'
+purple='\033[1;35m'
+cyan='\033[1;36m'
+white='\033[1;37m'
+
+figlet "FB - Tools " | lolcat
+echo -e $cyan"                              Version : v3.0 ";
+echo -e $red"                           Mod by Unknown240 ";
+
+date | lolcat
+echo -e "--------------------------------------" | lolcat
+echo -e "°°°°°°°°°°°°LIST TOOLS : •••••••••••••" | lolcat
+echo -e "--------------------------------------" | lolcat
+
+echo -e $white"\n";
+sleep 1
+echo "[ 1 ] -Get Your Token";
+echo "[ 2 ] -Facebook-Reaction (Home)";
+echo "[ 3 ] -Comment In Status Grub";
+echo "[ 4 ] -Auto Add Friends ";
+echo "[ 5 ] -Dark-Fb v1.7 Mod ";
+echo "[ 6 ] -Dark-Fb v1.6 Mod ";
+echo "[ 7 ] -Profile Guard";
+echo "[ x ] -Info ";
+echo "[ 0 ] -Exit";
+echo ""
+echo -e "[Choice] >:"
+
+read mrrm
+if [ $mrrm = 1 ] || [ $mrrm = 1 ]
+then
+clear
+php .4.php
+sleep 10
+fi
+
+if [ $mrrm = 2 ] || [ $mrrm = 2 ]
+then
+clear
+php .1.php
+clear
+php .2.php
+sleep 3
+clear
+php .3.php
+fi
+
+if [ $mrrm = 3 ] || [ $mrrm = 3 ]
+then
+clear
+php .5.php
+sleep 4
+fi
+
+if
+[ $mrrm = 4 ] || [ $mrrm = 4 ]
+then
+clear
+python .6.py
+fi
+
+if
+[ $mrrm = 5 ] || [ $mrrm = 5 ]
+then
+clear
+python2 .7.py
+fi
+
+if
+[ $mrrm = 6 ] || [ $mrrm = 6 ]
+then
+clear
+python2 .dark.py
+fi
+
+if
+[ $mrrm = 7 ] || [ $mrrm = 7 ]
+then
+clear
+python .n.py
+fi
+
+
+if
+[ $mrrm = x ] || [ $mrrm = x ]
+then
+clear
+
+figlet Facebook - Tools | lolcat
+
+echo "Name Tools : Fb - Tools"
+sleep 1
+echo "Authors & Mod : Unknown240"
+echo "Contact : Telegram @clvnfrlnsyh"
+echo "Version : v3.0"
+sleep 1
+echo "  "
+echo "Spesial Thanks To: " | lolcat
+echo " Allah SWT"
+echo " Al2VyN "
+echo " Coder Dark-Fb "
+echo " Karjok "
+echo " Kang Badru"
+echo " Noxturnix"
+echo " https://github.com/tomiashari/fb-autoreaction"
+echo " https://github.com/dfmcvn/getFBtoken "
+echo " https://github.com/tro1d/bot-reaction-gettoken"
+echo " まやちゃん "
+sleep 1
+echo " "
+echo "**Find Bug? Contact me in telegram**"
+sleep 3
+echo "DON'T FORGET FOR SM:)E"
+sleep 5
+bash run
+fi
+
+
+if [ $mrrm = 0 ] || [ $mrrm = 0 ]
+then
+sleep 1
+exit
+clear
+fi
